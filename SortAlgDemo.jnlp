@@ -9,7 +9,7 @@
 	<resources>
 		<!-- Application Resources -->
 		<j2se version="1.7+" />
-		<jar href="https://sites.google.com/site/jeffreygarcia/SortAlgDemo/SortAlgDemo.jar" 
+		<jar href="URL_OF_YOUR_WEBSITE/SortAlgDemo.jar" 
 		main="true" />
     </resources>
     
