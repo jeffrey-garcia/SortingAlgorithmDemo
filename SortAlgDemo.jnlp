@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- href attribute contains relative path codebase attribute not specified -->
+<jnlp href="SortAlgDemo.jnlp">
+	<information>
+		<title>Sort Algorithm Demo</title>
+		<vendor>Jeffrey Garcia</vendor>
+	</information>
+	
+	<resources>
+		<!-- Application Resources -->
+		<j2se version="1.7+" />
+		<jar href="https://sites.google.com/site/jeffreygarcia/SortAlgDemo/SortAlgDemo.jar" 
+		main="true" />
+    </resources>
+    
+    <applet-desc 
+    	name="Sort Algorithm Demo" 
+    	main-class="SortAlgDemo.SortVisualizer" 
+    	width="700" 
+    	height="500">
+    </applet-desc>
+    
+    <update check="background"/>
+</jnlp>
