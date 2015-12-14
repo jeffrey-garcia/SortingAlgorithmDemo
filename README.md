@@ -12,17 +12,19 @@ A Java applet to show (visually) the simple operation of simple sorting algorith
 
 # Software Information  
 
-Software Name: Sort Algorithm Visualizer  
-Version: 1.1  
-Programming Language: Java  
-Software Development Kit (SDK): J2SDK 1.4.2_06  
-Integrated Development Environment (IDE): Netbeans IDE 3.6  
+<b>Software Name:</b> Sort Algorithm Visualizer  
+<b>Version:</b> 1.1  
+<b>Programming Language:</b> Java  
+<b>Software Development Kit (SDK):</b> J2SDK 1.4.2_06  
+<b>Integrated Development Environment (IDE):</b> Netbeans IDE 3.6  
 
 # System Requirement
 
-Supported Platform: Win 95/98/NT/2000/ME/XP/2003, Unix, Linux, MAC OS X  
-Hardware Minimal Requirement: CPU 733 MHz, Memory128MB RAM  
-Special Requirement: Sun’s JAVA Runtime Environment 1.4.x  
+<b>Supported Platform:</b> Win 95/98/NT/2000/ME/XP/2003, Unix, Linux, MAC OS X  
+<b>Hardware Minimal Requirement:</b> CPU 733 MHz, Memory128MB RAM  
+<b>Special Requirement:</b> Sun’s JAVA Runtime Environment 1.4.x  
+
+# API document
 
 See the API for the class functionality.
 
