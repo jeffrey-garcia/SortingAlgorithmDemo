@@ -1,0 +1,26 @@
+Create the Jar library
+================================================================
+cd to bin folder
+copy the image folder into bin/SortAlgDemo/
+at the path bin, invoke command -> jar cvf SortAlgDemo.jar ./*
+the SortAlgDemo.jar should be created in the bin folder
+
+Sign the jar with valid certificate
+================================================================
+path to the Android folder where the the certificate keystore is located
+invoke command ->
+ jarsigner -keystore WWW -storepass XXX YYY ZZZ
+ 
+ WWW is the file path of the keystore 
+ XXX is the keystore password
+ YYY is the file path of the jar to be signed
+ ZZZ is the keystore alias
+ 
+[sample]
+jarsigner -keystore my-release-key.keystore -storepass XXX /Users/administrator/Desktop/Jeffrey/Java/SortAlgorithmDemo/SortAlgDemo.jar jeffrey 
+
+Upload the jar to server
+================================================================
+test the jnlp (which embed the jar) using java web start
+invoke command ->
+javaws http://sites.google.com/site/jeffreygarcia/SortAlgDemo/SortAlgDemo.jnlp
