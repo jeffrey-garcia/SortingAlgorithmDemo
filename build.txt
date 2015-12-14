@@ -23,4 +23,4 @@ Upload the jar to server
 ================================================================
 test the jnlp (which embed the jar) using java web start
 invoke command ->
-javaws http://sites.google.com/site/jeffreygarcia/SortAlgDemo/SortAlgDemo.jnlp
+javaws http://URL_OF_YOUR_WEBSITE/SortAlgDemo/SortAlgDemo.jnlp
